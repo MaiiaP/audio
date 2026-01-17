@@ -27,7 +27,9 @@ from typing import Any, Dict, Optional, Tuple
 
 
 import streamlit as st
-OPENAI_API_KEY = "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"
+import os
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # OpenAI Python SDK (Responses API)
 # Документация: Structured Outputs / Responses API. :contentReference[oaicite:0]{index=0}
