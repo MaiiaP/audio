@@ -1,0 +1,11 @@
+streamlit>=1.32.0
+
+openai>=1.40.0
+
+pydantic>=2.6.0
+python-dateutil>=2.8.2
+
+# аудио (wav / mp3 / m4a / ogg / webm)
+pydub>=0.25.1
+soundfile>=0.12.1
+ffmpeg-python>=0.2.0
