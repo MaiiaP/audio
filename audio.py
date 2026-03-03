@@ -363,7 +363,7 @@ def inject_pretty_styles() -> None:
           .hero-card .hero-title,
           .hero-title {
             margin: 0 0 0 0.42rem;
-            font-size: 0.56rem !important;
+            font-size: 1.12rem;
             font-weight: 800;
             line-height: 1.05;
             letter-spacing: -0.01em;
@@ -612,7 +612,7 @@ def inject_pretty_styles() -> None:
             }
             .hero-card { border-radius: 12px; padding: 0.45rem 0.68rem; margin-bottom: 0.4rem; min-height: 52px; }
             .hero-card::after { width: 3px; top: 14%; bottom: 14%; }
-            .hero-title { font-size: 0.46rem !important; margin-left: 0.25rem; }
+            .hero-title { font-size: 0.92rem; margin-left: 0.25rem; }
             .stTabs [data-baseweb="tab"] { padding: 6px 10px; font-size: 0.86rem; }
             .stButton > button { min-height: 2.45rem; }
             [data-testid="stSidebar"] { min-width: 78vw; }
