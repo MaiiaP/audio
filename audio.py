@@ -1,3 +1,5 @@
+# streamlit_app.py
+# Streamlit-приложение: аудио из директории -> Whisper -> JSON листа приёма
 
 import contextlib
 import json
@@ -318,8 +320,8 @@ def inject_pretty_styles() -> None:
           .hero-card {
             position: relative;
             overflow: hidden;
-            padding: clamp(0.8rem, 1.5vw, 1rem) clamp(1rem, 1.8vw, 1.25rem);
-            min-height: clamp(74px, 8vw, 98px);
+            padding: 0.48rem 0.85rem;
+            min-height: 58px;
             display: flex;
             align-items: center;
             border-radius: 16px;
@@ -359,11 +361,11 @@ def inject_pretty_styles() -> None:
           }
 
           .hero-title {
-            margin: 0 0 0 0.45rem;
-            font-size: clamp(2.5rem, 2.9vw, 3rem);
+            margin: 0 0 0 0.42rem;
+            font-size: 1.28rem;
             font-weight: 800;
-            line-height: 1.12;
-            letter-spacing: -0.025em;
+            line-height: 1.05;
+            letter-spacing: -0.018em;
             color: var(--text);
           }
 
@@ -607,9 +609,9 @@ def inject_pretty_styles() -> None:
               padding-right: 0.7rem;
               padding-top: 0.65rem;
             }
-            .hero-card { border-radius: 12px; padding: 0.62rem 0.75rem; margin-bottom: 0.45rem; min-height: 64px; }
+            .hero-card { border-radius: 12px; padding: 0.45rem 0.68rem; margin-bottom: 0.4rem; min-height: 52px; }
             .hero-card::after { width: 3px; top: 14%; bottom: 14%; }
-            .hero-title { font-size: clamp(1.75rem, 5vw, 2rem); margin-left: 0.3rem; }
+            .hero-title { font-size: 1.02rem; margin-left: 0.25rem; }
             .stTabs [data-baseweb="tab"] { padding: 6px 10px; font-size: 0.86rem; }
             .stButton > button { min-height: 2.45rem; }
             [data-testid="stSidebar"] { min-width: 78vw; }
