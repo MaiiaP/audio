@@ -360,7 +360,7 @@ def inject_pretty_styles() -> None:
 
           .hero-title {
             margin: 0 0 0 0.45rem;
-            font-size: clamp(1.15rem, 2.1vw, 1.72rem);
+            font-size: clamp(2.5rem, 2.9vw, 3rem);
             font-weight: 800;
             line-height: 1.12;
             letter-spacing: -0.025em;
@@ -609,7 +609,7 @@ def inject_pretty_styles() -> None:
             }
             .hero-card { border-radius: 12px; padding: 0.62rem 0.75rem; margin-bottom: 0.45rem; min-height: 64px; }
             .hero-card::after { width: 3px; top: 14%; bottom: 14%; }
-            .hero-title { font-size: clamp(0.98rem, 4.8vw, 1.24rem); margin-left: 0.3rem; }
+            .hero-title { font-size: clamp(1.75rem, 5vw, 2rem); margin-left: 0.3rem; }
             .stTabs [data-baseweb="tab"] { padding: 6px 10px; font-size: 0.86rem; }
             .stButton > button { min-height: 2.45rem; }
             [data-testid="stSidebar"] { min-width: 78vw; }
